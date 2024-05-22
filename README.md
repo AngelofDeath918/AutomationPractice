@@ -26,7 +26,7 @@
 
 #### Setup
 
-1. Clone repo with SSH: `TO BE EDITED`
+1. Clone repo with HTTPS: `(https://github.com/AngelofDeath918/AutomationPractice.git)`
 2. Install all dependencies: `yarn`
 
 ## Run (in local)
