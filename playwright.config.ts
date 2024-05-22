@@ -16,6 +16,9 @@ const config: PlaywrightTestConfig = {
      */
     timeout: 10000,
   },
+  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
+	reporter: process.env.CI ? [['junit', { outputFile: 'test-results/results.xml' }]] : 'html',
+
 
   /* Run tests in files in parallel */
   fullyParallel: true,
